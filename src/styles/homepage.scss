@@ -1,0 +1,32 @@
+.home, .howTo {
+    width: 100%;
+    background: #FFFFFF;
+    border-bottom: solid 1px silver;;
+    padding: 12px 24px;
+    margin: 0.5em 1.5em;
+    line-height: 175%;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 1024px;
+    display: block;
+    border-radius: 0.5rem;
+}
+.home {
+    padding-top: 11.4rem;
+}
+
+.back {
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 10px;
+    a {
+        color:#06c;
+        text-decoration: none;
+        letter-spacing: inherit;
+    }
+    a:hover {
+        color: rgb(98, 41, 242);
+        text-decoration: underline;
+    }
+}
